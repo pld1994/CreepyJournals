@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing:border-box;
+}
+
+
+
+#heading1 {
+  color: white;
+  text-align: center;
+  font-family: 'Stint Ultra Condensed', sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 100px;
+  margin-top: auto;
+}
+
+#subheading1 {
+  color: #950101;
+  text-align: center;
+  font-family: 'Stint Ultra Condensed', sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #950101;
+}
+
+.button {
+  background: transparent;
+  background: none;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar {
+  height: 60px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Kanit;
+  font-weight: bold;
+  }
+
+.nav-link:hover, .reddit-link:hover, .podcast-link:hover, .twitter-link:hover, .subreddit-link:hover {
+  color: #950101;
+}
+
+.icons {
+  color: #950101;
+  font-size: 25px;
+}
+
+#Home {
+  background-color: black;
+}
+
+main {
+  background-image: linear-gradient(black 5%, #950101);
+}
+
+.subheading2 {
+  color: white;
+  font-family: 'Stint Ultra Condensed', sans-serif;
+  font-size: 30px;
+  margin-left: 5rem;
+  padding-top: 40px;
+}
+
+#headline {
+  margin: 20px;
+}
+
+.playlist {
+  border: 2px solid #950101;
+  border-radius: 10px;
+}
+
+ .vid {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px;
+ }
+
+.lnm {
+  font-weight: bold;
+  font-size: 25px;
+  color: gray;
+}
+
+ .vid-desc {
+   font-family: 'Kanit', sans-serif;
+   color: white;
+   margin-top:50px;
+   margin-left: 20px;
+   padding: auto;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .desc1 {
+   padding-bottom: 20px;
+ }
+
+#mid-content {
+  background-color: black;
+}
+
+#more-horror {
+  text-align: left;
+}
+
+#subreddit {
+  font-family: 'Kanit';
+  color: white;
+  font-size: 20px;
+  margin-left: 2rem;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#reddit-icon, #podcast-icon, #twitter-icon, #reddit-icon2 {
+  padding-right: 10px;
+}
+
+#subreddits, #platforms {
+  color: white;
+  font-family: 'Kanit';
+  font-size: 20px;
+  margin-left: 4rem;
+  padding-top: 20px;
+}
+
+#reddit-list, #podcast-list {
+  list-style: none;
+}
+
+
+.column {
+ column-count: 3;
+ justify-content: space-evenly;
+ column-gap: normal;
+}
+
+.reddit-link, .podcast-link {
+  color: white;
+  text-decoration: none;
+  font-family: Kanit;
+}
+
+#podcast {
+  font-family: 'Kanit';
+  color: white;
+  font-size: 20px;
+  margin-left: 2rem;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#podcast-desc {
+  font-family: 'Kanit';
+  color: white;
+  font-size: 20px;
+  margin-left: 2rem;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#podcast-list {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #202020;
+  height: 35%;
+  width: 100%;
+  position: absolute;
+
+}
+
+.copyright {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.3rem;
+
+}
+
+
+#footer-heading {
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+}
+
+#contact-heading {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#plugs {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+#twitter-icon {
+color: #1DA1F2;
+}
+
+.twitter-link, .subreddit-link {
+  text-decoration: none;
+  color: white;
+}
+
+.twitter-link {
+  color: #1DA1F2;
+}
+
+#reddit-icon2 {
+  color: #ff4500;
+}
+
+.subreddit-link {
+  color: #ff4500;
+}
+
+.sub-text {
+  font-size: 17px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  color: white;
+  /* text-align: center; */
+  padding: auto;
+  margin:auto;
+  display: inline-block;
+}
+
+#warning-icon {
+  padding-right: 20px;
+}
+
+.submission-info {
+ /* text-align: center; */
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.sub-break {
+  border: none;
+  padding: 10px;
+}
+
+#guideline {
+font-weight: bold;
+font-size:20px;
+}
+
+label {
+  display: block;
+	margin: 0.5rem 0;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+
+form {
+  width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+input, textarea {
+  padding: 10px 10px;
+  background-color: white;
+  border: 1px solid #0a0a23;
+  color: black;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.age {
+  color: yellow;
+}
+
+.age-warning {
+  padding-top: 20px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+
+
+#welcome-about {
+  font-family: 'Kanit';
+  color: white;
+  font-size: 20px;
+  margin-left: 2rem;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.about-info{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#about-last {
+  padding-bottom: 100px;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  html, body {overflow-x: hidden;}
+  h1 {font-size: 16px;}
+  .playlist {height: 100px}
+  .desc1 {font-size: 20px;}
+  .reddit-link, .podcast-link {font-size: 10px;}
+  .nav-link {font-size: 15px;}
+  .icons {font-size: 15px;}
+}
